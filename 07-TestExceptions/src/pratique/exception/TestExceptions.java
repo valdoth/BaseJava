@@ -1,10 +1,10 @@
-package pratique.exceptions;
+package pratique.exception;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.Scanner;
 
-public class TestException {
+public class TestExceptions {
 
 	public static void method1() {
 		System.out.println("BEGIN method1");

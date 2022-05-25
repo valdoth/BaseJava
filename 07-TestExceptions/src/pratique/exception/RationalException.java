@@ -1,4 +1,4 @@
-package pratique.exceptions;
+package pratique.exception;
 
 public class RationalException extends IllegalArgumentException {
 

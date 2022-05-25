@@ -7,6 +7,12 @@ package pratique.sealedclasses;
 public sealed class Shape permits Circle, Square  {
 	
 	private Point center;
+
+	public Point getCenter() {
+		return center;
+	}
+	
+	
 	
 	// imaginer d'autres attributs et méthodes
 	
