@@ -21,7 +21,7 @@ public class GenericMethod {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static <TYPE> TYPE findViewById(int i) {
+	public static <TYPE extends Component> TYPE findViewById(int i) {
 		return ((TYPE) components[i]);
 	}
 
