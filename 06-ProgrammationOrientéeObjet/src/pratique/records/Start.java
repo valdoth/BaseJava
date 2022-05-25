@@ -18,6 +18,7 @@ public class Start {
 		end = System.currentTimeMillis();
 		System.out.println("Duration: " + (end-begin) + "ms");
 		
+		pos1.doSomething();
 		
 	}
 
